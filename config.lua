@@ -1,4 +1,4 @@
-Config = {}
+onfig = {}
 
 Config = {
     ChanceToGetItem = 20, -- if math.random(0, 100) <= ChanceToGetItem then give item
@@ -8,10 +8,12 @@ Config = {
         ['pickaxe'] = 'w_me_hatchet',
     },
     OrangePosition = {
-        {coords = vector3(378.0, 6505.09, 27.95), heading = 359.88},
-        {coords = vector3(378.13, 6517.0, 28.36), heading =  8.6},
-        {coords = vector3(370.03, 6517.21, 28.37), heading = 354.03},
-        {coords = vector3(370.22, 6505.38, 28.41), heading =  351.79}
+        {coords = vector3(378.0, 6505.09, 27.95-0.97), heading = 359.88},
+        {coords = vector3(378.13, 6517.0, 28.36-0.97), heading =  8.6},
+        {coords = vector3(370.03, 6517.21, 28.37-0.97), heading = 354.03},
+        {coords = vector3(370.22, 6505.38, 28.41-0.97), heading =  351.79},
+        {coords = vector3(362.95, 6504.92, 28.53-0.97), heading =  351.79},
+        {coords = vector3(362.61, 6516.88, 28.26-0.97), heading =  351.79}
     },
     
 }
