@@ -121,7 +121,7 @@ local procesZ = 28.81
 ------------------------------------
 Citizen.CreateThread(function()
     while true do
-    Citizen.Wait(7)
+    Citizen.Wait(0)
 	local plyCoords = GetEntityCoords(GetPlayerPed(-1), false)
     local dist = Vdist(plyCoords.x, plyCoords.y, plyCoords.z, procesX, procesY, procesZ)
 	
