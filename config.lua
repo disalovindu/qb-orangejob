@@ -1,4 +1,4 @@
-onfig = {}
+Config = {}
 
 Config = {
     ChanceToGetItem = 20, -- if math.random(0, 100) <= ChanceToGetItem then give item
